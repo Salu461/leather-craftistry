@@ -1,0 +1,121 @@
+body,
+html {
+  margin: 0;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background-color: hsl(26deg 13.16% 55.29%);
+  font-family: "Madimi One", sans-serif;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+button {
+  border: none;
+  background: transparent;
+  color: white;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+li {
+  list-style: none;
+}
+
+span {
+  display: inline-block;
+}
+
+.hidden {
+  display: none;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* website load screen modal  */
+.modal {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(20, 20, 20);
+  color: white;
+  z-index: 1000;
+}
+
+/* Header */
+
+header {
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.7rem 3rem;
+  transition: background-color 0.4s ease;
+  color: white;
+  background-color: h;
+}
+
+header:hover {
+  background-color: rgb(170, 167, 163);
+  color: hsl(26deg 13.16% 55.29%);
+}
+
+header:hover i {
+  color: hsl(26deg 13.16% 55.29%);
+}
+.headerflex > li + li {
+  margin-left: 3em;
+}
+
+/* hero */
+
+.hero {
+  width: 100%;
+  height: 91.6%;
+  color: white;
+  margin: 0 auto;
+}
+
+.wrapper {
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero-text-container {
+  width: 35%;
+}
+
+.hero-video-container {
+  width: 55%;
+}
+
+.hero-video {
+  height: fit-content;
+  width: 100%;
+}
+
+.hero-heading {
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
